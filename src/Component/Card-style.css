@@ -1,0 +1,43 @@
+body {
+  background: radial-gradient(blue, white);
+}
+
+.card {
+  width: 25rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  padding: 1rem 0 !important;
+  background: radial-gradient(white,pink);
+}
+
+.card-text {
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(2);
+}
